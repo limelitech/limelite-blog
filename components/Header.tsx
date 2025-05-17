@@ -1,13 +1,14 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/limelite_white_logo.svg'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
+import Image from 'next/image'
+import logo from '@/data/limelite_white_logo.jpg'
 
 const Header = () => {
-  let headerClass = 'flex items-center w-full bg-white dark:bg-gray-50 justify-between py-10'
+  let headerClass = 'flex items-center w-full bg-white dark:bg-gray-950 justify-between py-6'
   if (siteMetadata.stickyNav) {
     headerClass += ' sticky top-0 z-50'
   }
@@ -17,7 +18,13 @@ const Header = () => {
       <Link href="/" aria-label={siteMetadata.headerTitle}>
         <div className="flex items-center justify-between">
           <div className="mr-3">
-            <Logo />
+            <Image
+              src={logo}
+              alt="Limelite Logo"
+              width={40} // Adjust as needed
+              height={40} // Adjust as needed
+              priority
+            />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
             <div className="hidden h-6 text-2xl font-semibold sm:block">
