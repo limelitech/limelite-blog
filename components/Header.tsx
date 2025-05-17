@@ -5,7 +5,7 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 import Image from 'next/image'
-import logo from '@/data/limelite_white_logo.jpg'
+import logo from '@/data/limelite_white_logo.png'
 
 const Header = () => {
   let headerClass = 'flex items-center w-full bg-white dark:bg-gray-950 justify-between py-6'
@@ -21,7 +21,7 @@ const Header = () => {
             <Image
               src={logo}
               alt="Limelite Logo"
-              width={100} // Adjust as needed
+              width={250} // Adjust as needed
               height={100} // Adjust as needed
               priority
             />
