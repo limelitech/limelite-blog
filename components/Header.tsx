@@ -21,8 +21,8 @@ const Header = () => {
             <Image
               src={logo}
               alt="Limelite Logo"
-              width={40} // Adjust as needed
-              height={40} // Adjust as needed
+              width={140} // Adjust as needed
+              height={140} // Adjust as needed
               priority
             />
           </div>
