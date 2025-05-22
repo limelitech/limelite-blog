@@ -1,134 +1,144 @@
-
 ---
-title: "How to Build Your Profile Website Using HTML, CSS & JavaScript"
-date: "2025-05-17"
-tags: ['html', 'css', 'javascript', 'github-pages', 'personal-website', 'portfolio']
+title: 'How to Build Your Profile Website Using HTML, CSS & JavaScript'
+date: '2025-05-17'
+tags: ['html', 'css', 'javascript', 'profile-website', 'web-development', 'limelite']
 draft: false
-summary: "Learn how to build and deploy a personal profile website using just HTML, CSS, and JavaScript."
+summary: 'Learn how to create and host your personal profile website using basic web development tools: HTML, CSS, and JavaScript. Perfect for beginners.'
 ---
 
-Creating a personal profile website is a great way to showcase your skills, projects, and personality. Whether you're job hunting or building your personal brand, this guide will walk you through the steps of building and deploying a clean, responsive profile website using **HTML**, **CSS**, and **JavaScript** — no frameworks required!
+Creating a personal profile website is one of the best ways to showcase your work, skills, and online presence. In this tutorial, I’ll walk you through the step-by-step process of building a modern and responsive profile website using **HTML**, **CSS**, and **JavaScript** — and then deploying it using **GitHub Pages**.
 
-🔗 **Live Demo**: [https://limelitech.github.io/profile-website/](https://limelitech.github.io/profile-website/)  
-📁 **Source Code**: [GitHub Repository](https://github.com/limelitech/profile-website)
+---
 
-## 🛠️ What You’ll Need
+## 🚀 Live Demo
 
-- A code editor (like [VS Code](https://code.visualstudio.com/))
-- Basic understanding of HTML, CSS, and JavaScript
-- A GitHub account (for hosting)
+👉 [Visit Live Site](https://limelitech.github.io/profile-website/)
 
-## 🚧 Step 1: Set Up the Project Folder
+![Website Screenshot](./images/profile-site-preview.png)
 
-Create a folder named `profile-website` and add the following structure:
+---
 
-\`\`\`
+## 🧰 What You Need
+
+- A code editor (VS Code recommended)
+- Basic understanding of HTML, CSS, and JS
+- A GitHub account
+
+---
+
+## 📁 Folder Structure
+
+Here’s a quick look at how your project folder should be organized:
+
+```
 profile-website/
-│
 ├── index.html
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
 ├── images/
-│   └── your-photo.jpg
-\`\`\`
+│   └── profile.jpg
+```
 
-## 🧱 Step 2: Build the HTML Structure
+---
 
-\`\`\`html
+## 🧱 Step 1: Create the HTML Structure
+
+```html
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Profile</title>
+  <title>Your Name - Profile</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>John Doe</h1>
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile-img" />
+    <h1>Your Name</h1>
     <p>Web Developer | Designer | Creator</p>
   </header>
 
   <section class="about">
-    <img src="images/your-photo.jpg" alt="Profile Photo" />
-    <p>Hello! I'm a front-end developer passionate about creating engaging user experiences...</p>
+    <h2>About Me</h2>
+    <p>This is a short bio about yourself...</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 John Doe</p>
+    <p>© 2025 Your Name</p>
   </footer>
 
   <script src="js/script.js"></script>
 </body>
 </html>
-\`\`\`
+```
 
-## 🎨 Step 3: Style with CSS
+---
 
-\`\`\`css
+## 🎨 Step 2: Style with CSS
+
+```css
+/* css/style.css */
 body {
   font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
 header {
-  text-align: center;
-  background-color: #222;
+  background: #333;
   color: white;
-  padding: 2rem 1rem;
+  padding: 40px 0;
 }
+```
 
-.about {
-  padding: 2rem;
-  text-align: center;
-}
+---
 
-.about img {
-  width: 150px;
-  border-radius: 50%;
-}
+## ✨ Step 3: Add Interactivity (Optional)
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: white;
-}
-\`\`\`
+```js
+// js/script.js
+console.log("Welcome to my profile website!");
+```
 
-## ⚙️ Step 4: Add JavaScript (Optional)
+---
 
-\`\`\`javascript
-console.log("Welcome to my profile site!");
-\`\`\`
+## 📦 Step 4: Host It on GitHub Pages
 
-## 🌐 Step 5: Deploy on GitHub Pages
+1. Push your code to a GitHub repository.
+2. Go to **Settings > Pages** in the repo.
+3. Set the source to your `main` branch, and select the root directory.
+4. Save and wait a few minutes — your site will be live!
 
-1. Push your project to a GitHub repository (e.g., `profile-website`)
-2. Go to the repo settings
-3. Under "Pages", choose the `main` branch and set `/ (root)` as the folder
-4. GitHub will generate a URL like:  
-   `https://yourusername.github.io/profile-website/`
+---
 
-Your website is now live!
+## 📥 Download This Template
 
-## 📷 Screenshots
+If you'd like to skip ahead and use the template I started from:
 
-Add screenshots from your live site:
+👉 [Download the Starter Template](https://limelitech.github.io/profile-website/)
 
-\`\`\`md
-![Home Screenshot](./screenshots/home.png)
-\`\`\`
+---
 
-## 📦 Download
+## 🎯 Final Thoughts
 
-👉 [Download .ZIP](https://github.com/limelitech/profile-website/archive/refs/heads/main.zip)
+Creating your personal website doesn’t have to be complicated. With just a few files and a GitHub account, you can have a professional online presence. Whether you're applying for jobs or just want to build a portfolio — this is a great place to start!
 
-## ✨ Wrap Up
+---
 
-You now have a live personal profile site that you can share on your resume, LinkedIn, or X profile. Feel free to personalize it, add project cards, contact forms, or animations to make it uniquely yours.
+## 💬 Let's Connect
+
+If you found this guide helpful, follow me on [X (Twitter)](https://x.com/yourusername) for more tutorials and tech tips!
+
+---
