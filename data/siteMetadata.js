@@ -9,7 +9,8 @@ const siteMetadata = {
   siteUrl: 'https://limeliteinnovatorshub.com',
   siteRepo: 'https://github.com/limelitech/limelite-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/limelite_white_logo.jpg`,
-  avatarImage: `${process.env.BASE_PATH || ''}/static/images/avatar.png`,
+  avatarImage: `${process.env.BASE_PATH || ''}/static/images/kathei profile photo.jpeg
+`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   email: 'kelvinkatheim@gmail.com',
   github: 'https://github.com/limelitech',
