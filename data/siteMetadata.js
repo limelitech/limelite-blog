@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Limelite Innovators Hub',
   author: 'Kevin Kathei Kathei',
-  headerTitle: 'Limelite Hub',
+  headerTitle: '',
   description: 'Insightful articles on web development, software engineering, and tech innovation.',
   language: 'en-us',
   theme: 'system', // system, dark or light
