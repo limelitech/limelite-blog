@@ -1,0 +1,171 @@
+---
+title: 'Getting Started with Web Development: Create Your First Website'
+date: '2025-05-22'
+tags: ['web-development', 'html', 'css', 'javascript', 'beginners']
+draft: false
+summary: 'A beginner-friendly guide to web development. Learn how to create your first website using HTML, CSS, and JavaScript with practical steps and examples.'
+---
+
+Web development is one of the most essential skills in the digital world today. Whether you're building a personal blog, portfolio, or launching your first business idea, everything starts with a website.
+
+In this beginner-friendly guide, we’ll explore the basics of web development and help you build your very first website from scratch using **HTML**, **CSS**, and **JavaScript**. We’ll also look at how to structure your project and deploy it online.
+
+---
+
+## 🌐 What is Web Development?
+
+Web development is the process of building websites and web applications. It is typically divided into three parts:
+
+- **HTML** (HyperText Markup Language) - the structure and content
+- **CSS** (Cascading Style Sheets) - the styling and layout
+- **JavaScript** - interactivity and dynamic content
+
+---
+
+## 🧰 Tools You Need
+
+Before writing any code, make sure you have the following:
+
+- A computer (Windows, Mac, or Linux)
+- **VS Code** (a free code editor): [https://code.visualstudio.com/](https://code.visualstudio.com/)
+- A modern web browser like Chrome or Firefox
+- A **GitHub** account for hosting your website online
+
+---
+
+## 🗂️ Project Structure
+
+Create a new folder called `my-first-website` and organize it like this:
+
+```
+my-first-website/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── images/
+    └── your-image.jpg
+```
+
+---
+
+## 🧱 Step 1: Build the HTML
+
+Create a file named `index.html` and paste the following:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My First Website</h1>
+    <p>This is a paragraph introducing the website.</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m learning how to build websites from scratch.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 My First Website</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+```
+
+---
+
+## 🎨 Step 2: Add CSS for Styling
+
+Inside the `css` folder, create `style.css` and add:
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 40px 0;
+}
+
+.about {
+  margin: 40px 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+```
+
+---
+
+## ✨ Step 3: Add JavaScript
+
+Inside the `js` folder, create `script.js`:
+
+```javascript
+console.log("Hello, world! Welcome to my website.");
+alert("Welcome to my first website!");
+```
+
+JavaScript can handle user interactions, validate forms, load data dynamically, and much more.
+
+---
+
+## 🚀 Step 4: Host Your Website on GitHub Pages
+
+1. Initialize a Git repository inside your folder:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+2. Create a new repository on GitHub and push your code:
+
+```bash
+git remote add origin https://github.com/your-username/my-first-website.git
+git branch -M main
+git push -u origin main
+```
+
+3. Go to **Settings > Pages** in the GitHub repository.
+4. Under “Source”, select the `main` branch and save.
+5. Your site will be available at: `https://your-username.github.io/my-first-website/`
+
+---
+
+## 🎯 Final Thoughts
+
+Congratulations! 🎉 You've just built and hosted your first website! You've touched on the three most fundamental building blocks of the web—HTML, CSS, and JavaScript.
+
+Web development is a vast world, but starting small and building projects like this is the best way to grow. Stay curious, practice regularly, and you'll be a confident developer in no time.
+
+---
+
+## 💬 Stay Connected
+
+For more tutorials, updates, and resources, follow me on [X (Twitter)](https://x.com/HubLimelite) and explore my blog for more posts on HTML, CSS, JavaScript, and web development best practices.
